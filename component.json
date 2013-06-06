@@ -1,11 +1,11 @@
 {
-    "name": "picturefill",
-    "repo": "scottjehl/picturefill",
-    "description": "A Responsive Images approach that you can use today!",
+    "name": "posterfill",
+    "repo": "scottjehl/posterfill",
+    "description": "Responsive poster attributes for the <video> element",
     "version": "0.1.0",
-    "main": "picturefill.js",
+    "main": "posterfill.js",
     "scripts": [
-        "picturefill.js",
+        "posterfill.js",
         "external/matchmedia.js"
     ],
     "licence": "MIT/GPLv2"

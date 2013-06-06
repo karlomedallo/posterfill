@@ -1,4 +1,4 @@
-/*! Posterfill - Responsive poster images for videos. Author: Lewis Nyman | Credits: Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2 */
+/*! Posterfill - Responsive poster images for videos. Authors: Lewis Nyman, Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2 */
 
 (function( w ){
 
