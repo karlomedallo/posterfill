@@ -5,7 +5,7 @@
 	// Enable strict mode
 	"use strict";
 
-	w.picturefill = function() {
+	w.posterfill = function() {
 		var videos = w.document.getElementsByTagName( "video" );
 
 		// Loop the videos
@@ -30,16 +30,16 @@
 
 	// Run on resize and domready (w.load as a fallback)
 	if( w.addEventListener ){
-		w.addEventListener( "resize", w.picturefill, false );
+		w.addEventListener( "resize", w.posterfill, false );
 		w.addEventListener( "DOMContentLoaded", function(){
-			w.picturefill();
+			w.posterfill();
 			// Run once only
-			w.removeEventListener( "load", w.picturefill, false );
+			w.removeEventListener( "load", w.posterfill, false );
 		}, false );
-		w.addEventListener( "load", w.picturefill, false );
+		w.addEventListener( "load", w.posterfill, false );
 	}
 	else if( w.attachEvent ){
-		w.attachEvent( "onload", w.picturefill );
+		w.attachEvent( "onload", w.posterfill );
 	}
 
 }( this ));
