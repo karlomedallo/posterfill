@@ -1,5 +1,7 @@
 # Posterfill
 
+[Demonstration](http://lewisnyman.github.com/posterfill)
+
 The `<video>` element defines a [single poster attribute.](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#attr-video-poster) This library forks Picturefill to supply responsive poster attributes.
 
 
